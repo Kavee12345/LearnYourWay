@@ -1,0 +1,109 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║          LEARN YOUR WAY EDUCATIONAL SUITE - QUICK REFERENCE               ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+🚀 FASTEST START
+═══════════════════════════════════════════════════════════════════════════
+
+  PowerShell:  .\run.ps1
+  Batch:       run.bat
+  Node.js:     node start-project.js
+
+
+📍 WHAT WILL START
+═══════════════════════════════════════════════════════════════════════════
+
+  🔹 Backend:   http://localhost:5000
+  🔹 Frontend:  http://localhost:3000
+  🔹 Database:  MySQL (learn_your_way)
+
+
+🔐 CREDENTIALS
+═══════════════════════════════════════════════════════════════════════════
+
+  Database User:  root
+  Database Pass:  Ikavi1920
+  Database Host:  localhost:3306
+  Database Name:  learn_your_way
+
+  Gemini API:  AIzaSyCGuai-qH4zqKgPmoJLrNyo25HQSI8mMjA
+  JWT Secret:  iKAVEE4321
+
+
+✅ BEFORE YOU START
+═══════════════════════════════════════════════════════════════════════════
+
+  ☐ MySQL is running
+  ☐ Node.js is installed (node --version)
+  ☐ Ports 3000 and 5000 are free
+  ☐ MySQL password is correct (Ikavi1920)
+
+
+📚 WHAT'S INCLUDED
+═══════════════════════════════════════════════════════════════════════════
+
+  ✅ Backend (Node.js/Express)
+  ✅ Frontend (Next.js/React)
+  ✅ Database (MySQL)
+  ✅ API Integration (Gemini)
+  ✅ Authentication (JWT)
+  ✅ Quiz System
+  ✅ File Upload
+
+
+🛠️ MANUAL SETUP (If Scripts Fail)
+═══════════════════════════════════════════════════════════════════════════
+
+  1. cd frontend && npm install && cd ..
+  2. node setup-db.js
+  3. cd backend && npm run dev                    (Terminal 1)
+  4. cd ../frontend && npm run dev               (Terminal 2)
+
+
+📖 DOCUMENTATION
+═══════════════════════════════════════════════════════════════════════════
+
+  START.md                  ← Read first!
+  RUNNING_PROJECT.md        ← Full guide
+  IMPLEMENTATION_SUMMARY.md ← Technical details
+  VERIFIED_SETUP.md         ← Checklist
+
+
+🐛 QUICK FIXES
+═══════════════════════════════════════════════════════════════════════════
+
+  MySQL not running?
+  → Start MySQL service (Services.msc)
+
+  Module not found?
+  → cd backend && npm install
+
+  Port already in use?
+  → Change BACKEND_PORT in .env
+
+  Still stuck?
+  → See RUNNING_PROJECT.md Troubleshooting
+
+
+🎯 TEST IT WORKS
+═══════════════════════════════════════════════════════════════════════════
+
+  1. Open http://localhost:3000 in browser
+  2. Go to http://localhost:5000/api/health
+  3. Should see: {"status":"ok","timestamp":"..."}
+
+
+⚡ YOU'RE READY!
+═══════════════════════════════════════════════════════════════════════════
+
+  Run: .\run.ps1 (or run.bat or node start-project.js)
+  
+  That's it! Both servers will start automatically.
+
+
+═══════════════════════════════════════════════════════════════════════════
+
+For questions, see START.md or RUNNING_PROJECT.md
+
+Happy learning! 📚
+═══════════════════════════════════════════════════════════════════════════

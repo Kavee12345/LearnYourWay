@@ -1,0 +1,24 @@
+{
+  "name": "learn-your-way-suite",
+  "version": "1.0.0",
+  "description": "Learn Your Way Educational Suite - Full Stack Application",
+  "main": "start-project.js",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "setup": "node setup-db.js",
+    "dev": "node start-project.js",
+    "start": "node start-project.js"
+  },
+  "keywords": [
+    "education",
+    "ai",
+    "pdf",
+    "learning"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mysql2": "^3.3.0",
+    "dotenv": "^16.3.1"
+  }
+}
